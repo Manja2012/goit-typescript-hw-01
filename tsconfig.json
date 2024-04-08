@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2019",                              
+    "lib": ["dom", "ES2021"],                                     
+    "experimentalDecorators": true,                   
+    "emitDecoratorMetadata": true,                    
+    "module": "es2020",                          
+    "rootDir": "./src",
+    "outDir": "./dist",                                  
+    "moduleResolution": "node",                     
+    "allowJs": false,                                                   
+    "sourceMap": true,                                
+    "preserveConstEnums": true,                       
+    "allowSyntheticDefaultImports": true,            
+    "esModuleInterop": true,                            
+    "strict": true,                                      
+    "strictNullChecks": true,                         
+    "skipLibCheck": true                                 
+  },
+  "include": ["**/*.ts"]
+}
+
